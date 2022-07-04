@@ -1,0 +1,204 @@
+
+body{
+  color: #5c5c5c ;
+}
+
+
+input:not([type]):focus:not([readonly]),
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="url"]:not(.browser-default):focus:not([readonly]),
+input[type="time"]:not(.browser-default):focus:not([readonly]),
+input[type="date"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime-local"]:not(.browser-default):focus:not([readonly]),
+input[type="tel"]:not(.browser-default):focus:not([readonly]),
+input[type="number"]:not(.browser-default):focus:not([readonly]),
+input[type="search"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border: 1px solid #01579b !important;
+  box-shadow: none !important;
+  
+}
+
+
+input:not([type]),
+input[type="text"]:not(.browser-default),
+input[type="password"]:not(.browser-default),
+input[type="email"]:not(.browser-default),
+input[type="url"]:not(.browser-default),
+input[type="time"]:not(.browser-default),
+input[type="date"]:not(.browser-default),
+input[type="datetime"]:not(.browser-default),
+input[type="datetime-local"]:not(.browser-default),
+input[type="tel"]:not(.browser-default),
+input[type="number"]:not(.browser-default),
+input[type="search"]:not(.browser-default),
+textarea.materialize-textarea {
+  border-bottom: none;
+  border-radius: 15px !important;
+  border: 1px solid #666565 !important;
+  padding: 16px 14px !important;
+}
+input.valid:not([type]),
+input.valid:not([type]):focus,
+input.valid[type="text"]:not(.browser-default),
+input.valid[type="text"]:not(.browser-default):focus,
+input.valid[type="password"]:not(.browser-default),
+input.valid[type="password"]:not(.browser-default):focus,
+input.valid[type="email"]:not(.browser-default),
+input.valid[type="email"]:not(.browser-default):focus,
+input.valid[type="url"]:not(.browser-default),
+input.valid[type="url"]:not(.browser-default):focus,
+input.valid[type="time"]:not(.browser-default),
+input.valid[type="time"]:not(.browser-default):focus,
+input.valid[type="date"]:not(.browser-default),
+input.valid[type="date"]:not(.browser-default):focus,
+input.valid[type="datetime"]:not(.browser-default),
+input.valid[type="datetime"]:not(.browser-default):focus,
+input.valid[type="datetime-local"]:not(.browser-default),
+input.valid[type="datetime-local"]:not(.browser-default):focus,
+input.valid[type="tel"]:not(.browser-default),
+input.valid[type="tel"]:not(.browser-default):focus,
+input.valid[type="number"]:not(.browser-default),
+input.valid[type="number"]:not(.browser-default):focus,
+input.valid[type="search"]:not(.browser-default),
+input.valid[type="search"]:not(.browser-default):focus,
+textarea.materialize-textarea.valid,
+textarea.materialize-textarea.valid:focus,
+.select-wrapper.valid > input.select-dropdown {
+  border-bottom: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+select:focus {
+  outline: none !important;
+}
+/* login y formulario*/
+.login {
+  width: 95%;
+  border-color: #bdbdbd !important;
+}
+.login input,
+.formulario .bor input,
+.formulario .bor select {
+  border: 1px solid #ccc !important;
+  border-radius: 15px !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+.formulario .nobor input{
+  border-bottom: 1px solid #ccc !important;
+}
+.border {
+  border: 1px solid;
+}
+
+/* .login label,
+.label1 label{
+  font-size: 1.3rem !important;
+  top: -14px !important;
+}
+.label2 label{
+  font-size: 1.3rem !important;
+  top: -14px !important;
+}
+.label2{
+  margin-bottom: 30px !important;
+}
+
+.login label {
+  color: #a39f9f !important;
+} */
+
+.login .input-field.col label,
+.formulario .input-field.col label {
+  left: 1rem;
+}
+.login button{
+  height:44px;
+  border-radius: 15px   ;
+}
+.formulario input{
+  font-size: 20px !important;
+}
+.tabla button i{
+  margin-right: 5px;
+}
+.select-wrapper .caret{
+  right: 10px !important;
+}
+
+/* .formulario input[type="number"]{
+  width: 100% !important;
+} */
+
+[type="checkbox"]:not(:checked):disabled + span:not(.lever):before {
+  border: 2px solid #5a5a5a !important;
+  background-color: transparent !important;
+}
+[type="checkbox"]:checked:disabled + span:before {
+  border-right: 2px solid #26a69a !important;
+  border-bottom: 2px solid #26a69a !important;
+}
+/* label color */
+
+/* label focus color */
+.input-field input[type="text"]:focus + label,
+.input-field input[type="password"]:focus + label,
+.input-field input[type="number"]:focus + label {
+  color: #000 !important;
+}
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  /* border-bottom: 1px solid #000; */
+  /* box-shadow: 0 1px 0 0 #000; */
+}
+/* valid color */
+.input-field input[type="text"].valid,
+.input-field input[type="number"].valid{
+   
+  box-shadow: none !important; 
+}
+/* invalid color */
+.input-field input[type="text"].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #000;
+}
+
+/* config GRID */
+
+
+/*header*/
+.containerx {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 95%;
+}
+
+  /* modal */
+  .modal{
+    width:545px !important;
+  }
+  /* media queries */
+
+  @media only screen and (min-width: 601px) {
+    .login {
+      width:430px
+    }
+    .row .col.m20 {
+      width: 20%;
+    }
+    .btn-footer{
+      padding-right: 2.5rem !important;
+      padding-left: 2.5rem !important;
+    }
+  }
+  @media only screen and (min-width: 993px) {
+  
+  }

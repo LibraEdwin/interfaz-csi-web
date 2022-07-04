@@ -1,0 +1,162 @@
+
+
+#reporte-ventas{
+    background-color: #E5E5E5;
+    min-height: 100vh;
+    padding-bottom: 55px;
+}
+
+
+
+.reporte-subtitle{
+    display: flex;
+    justify-content: space-between;
+}
+.ventas{
+    border: 1px solid #AEAEAE;
+    padding:20px;
+    min-width: 60%;
+    background: #FFFDFD;
+    margin-top: 25px;
+    /* margin-bottom: 55px; */
+
+}
+.info{
+    height: 100%;
+    margin-bottom: 25px;
+}
+.ventas label{
+    font-size: 16px;
+}
+
+.btn-ventas{
+    background: rgba(13, 71, 161, 0.93);
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 13px 10px;
+    margin-top: 25px;
+    cursor:pointer;
+    outline-width: 0;
+    border: 1px;
+    width: 100%;
+}
+
+.btn-disabled{
+    background: rgb(172 192 208);
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 13px 10px;
+    margin-top: 25px;
+    outline-width: 0;
+    border: 1px;
+    width: 100%;
+}
+
+
+
+.footer-reporte{
+    background: #F8F8F8;
+    border: 1px solid #D8D8D8;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.reporte{
+    width: 60%;
+    height: 100%;
+    font-size: 16px;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.reporte  li{
+    padding-left: 50px
+}
+
+.reporte  b{
+    padding-left: 20px
+}
+
+.ventas .info .hidden {
+    display: none;
+}
+
+#comprobante{
+    box-shadow: none  !important;
+    font-size: 12px;
+}
+
+
+.resumen-title > th{
+   text-align: center;
+}
+
+.resumen-title > td{
+    text-align: center;
+ }
+
+ .total-general{
+     background: #F8F8F8;
+     font-weight: bold;
+ }
+
+ .exportar-btn{
+    display: flex;
+    align-items: center; 
+    align-content: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 2px solid  rgba(13, 71, 161, 0.93);
+    font-size: 16px;
+    height: 43px;
+    margin-top: 25px;
+    font-weight: 600;
+    cursor:pointer;
+    width: 100%;
+    background: white;
+ }
+
+
+
+ .exportar-disabled { 
+    border: 2px solid rgba(13, 71, 161, 0.43);
+    display: flex;
+    align-items: center; 
+    align-content: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 16px;
+    height: 43px;
+    margin-top: 25px;
+    font-weight: 600;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.93);
+ }
+
+ 
+
+@media print{
+    .printMedia{
+        display: none;
+    }
+    .ventas{
+        width: 100%;
+        border: 0px
+    }
+
+}
+
+
+
+
+

@@ -1,0 +1,7 @@
+/*quitar flechas input number*/
+.num::-webkit-outer-spin-button,
+.num::-webkit-inner-spin-button{
+     -webkit-appearance: none;
+     -moz-appearance:textfield;
+    margin: 0; 
+}

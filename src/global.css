@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;900&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+nav .material-icons {
+  color: #000000;
+}
+
+nav a{
+ color:black !important;
+ font-size: 30px;
+}
+nav img{
+  height: 60px;
+}
+
+.sidenav li {
+
+  line-height: 22px !important;
+}
+
+
+/* .formulario input[type="number"] {
+  width: 100% !important;
+} */
+
+.fixed2{
+  background-color: whitesmoke;
+  margin: 0 !important;
+  padding: 20px 0 20px 0;
+  display: flex;
+  border: 1px #8B8B8B solid;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.input-field input{
+  border: 1px solid #747474 !important;
+  border-radius: 10px !important;
+  padding: 0 15px 0 15px !important;
+  color: #090909 !important;
+  background: #FCFCFC !important;
+  font-size: 18px !important;
+  font-weight: 400;
+  z-index: 0 !important;
+}
+
+.input-field label{
+  font-size: 1.3rem !important;
+  top: -14px !important;
+  color: #8B8B8B !important;
+}
+
+.input-field input[type="text"]:disabled {
+  background: #EEEEEE !important;
+}
+
+table {
+  background: #FDFDFD ;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149) ;
+  margin-bottom: 15px;
+}
+.table-detaCuenta {
+  margin-bottom: 140px;
+}
+
+/* íconos en input */
+
+.icon-input{
+  position: absolute;
+  width: 3rem;
+  font-size: 2rem;
+  transition: color .2s;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: #0D47A1;
+}
+
+/* border-radius */
+.modal {
+  border-radius: 15px !important;
+}
+.tabla-modal{
+  height: 250px;
+  overflow: auto;
+}
+
+/*lista select*/
+.dropdown-content li > span{
+  color: #01579b !important;
+}
+
+
+/*sweet alert*/
+.swal2-icon{
+  box-sizing: content-box !important;
+}
+.swal2-icon.swal2-success .swal2-success-ring{
+  box-sizing: content-box !important;
+}
+
+#list{
+  display: inline;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+
+}
+
+button:focus{
+  background: none !important;
+}
+
+.row-month td{
+  background: #fafafa
+}

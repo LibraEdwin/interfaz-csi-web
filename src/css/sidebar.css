@@ -1,0 +1,60 @@
+.sidebarList .row{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid black; 
+    list-style-type: none ;
+    margin: 0;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.icon{
+    flex: 15%;
+    display: grid;
+    place-items: center ;
+}
+
+.title{
+    flex: 85%
+}
+
+.avatar{
+    background-color: #2F4A9F;
+    font-size: 20px;
+}
+
+.role{
+    font-size: 12px;
+}
+li span{
+    color: white
+}
+
+.icon-wrapper{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: center;
+}
+
+.icon-wrapper span{
+    padding-left: 5px;
+    padding-right: 25px;
+}
+
+/* Navbar */
+
+.titulo-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 22px;
+}

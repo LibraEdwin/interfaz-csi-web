@@ -1,0 +1,63 @@
+.repoSocios{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px red solid */
+}
+
+.repoSocios label{
+    color: black;
+    font-size: 16px;
+}
+
+.btn-repoSocios{
+    background: rgba(13, 71, 161, 0.93);
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 13px 50px;
+    cursor:pointer;
+    outline-width: 0;
+    border: 1px;
+    width: 100%;
+}
+
+.btn-disabled-repSocios{
+    background: rgb(172 192 208);
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 13px 50px;
+    outline-width: 0;
+    border: 1px;
+    width: 100%;
+}
+
+.btnImprimir{
+    color: #0D47A1; 
+    font-weight: bold;
+    background: none;
+    border: 2px solid #0D47A1;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.btnImprimirDisabled{
+    display: none;
+}
+
+.btnImprimir-wrapper{
+    display:flex;
+    height: 100%;
+    font-size: 16px;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
